@@ -1,0 +1,46 @@
+/*.table_content{
+    margin-top: 15px;
+    border-collapse: collapse;
+    margin: 25px 100;
+    font-size: 0.9em;
+    min-width: 730px;
+}
+.table_content thead{
+    padding: 10px;
+}
+.table_content thead tr{
+    background-color: #e22424;
+    color: white;
+    text-align: left;
+    font-weight: bold;
+}
+
+.table_content th,
+.table_content td{
+    padding: 12px 15px;
+}*/
+.main_add_box{
+    margin: 8px;
+    box-shadow: 0px 0px 5px grey;
+    display: flex;
+}
+
+.main_add_box input{
+    background-color: white;
+    border: none;
+    outline: none;
+    width: 100%;
+    padding: 12px;
+}
+
+.table_heading{
+    justify-content: space-around;
+    padding: 10px;
+    background: #e22424;
+    display: flex;
+}
+
+.table_heading h1{
+    color: white;
+    font-size: 14px;
+}

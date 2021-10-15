@@ -1,0 +1,18 @@
+@media only screen and (max-width: 650px) {
+    .card_sec_1 {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .card_sec_2 {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .card-main{
+        width: 100%;
+    }
+    .dashboard{
+        width: 90%;
+    }
+  }

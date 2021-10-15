@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simplae UI</title>
+    <link rel="stylesheet" href="css/card.css" />
+    <link rel="stylesheet" href="css/button_section.css">
+    <link rel="stylesheet" href="css/table.css" />
+    <link rel="stylesheet" href="css/css_hover.css">
+    <link rel="stylesheet" href="css/responsive.css">
+  </head>
+  <body>
+    <div class="wrap">
+      <div class="dashboard">
+        <div class="heading"><h1><span id="cl">Dev</span> - <a href="https://www.facebook.com/AJTechExpert" id="link">AJ AnTor Ali<a></h1></div>
+      <!--Group Card Start-->
+        <div class="card card_sec_1">
+          <div class="card-1 card-main">
+            <div class="img">
+              <img src="icon/books.svg" alt="" />
+            </div>
+            <div class="title">Book List</div>
+          </div>
+          <div class="card-2 card-main">
+            <div class="img">
+              <img src="icon/schedule (1).svg" alt="" />
+            </div>
+            <div class="title">Routine</div>
+          </div>
+          <div class="card-3 card-main">
+            <div class="img">
+              <img src="icon/team.svg" alt="" /></div>
+            <div class="title">Member</div>
+          </div>
+          <div class="card-4 card-main">
+            <div class="img">
+              <img src="icon/Group 7424.svg" alt="" />
+            </div>
+            <div class="title">Mentor</div>
+          </div>
+        </div>
+        <div class="card_sec_2">
+          <div class="card-5 card-main">
+            <div class="img">
+              <img src="icon/presentation.svg" alt="" />
+            </div>
+            <div class="title">Meeting</div>
+          </div>
+          <div class="card-6 card-main">
+            <div class="img"><img src="icon/exam.svg" alt="" /></div>
+            <div class="title">Class Test</div>
+          </div>
+          <div class="card-7 card-main">
+            <div class="img">
+              <img src="icon/attendance.svg" alt="" />
+            </div>
+            <div class="title">Attendence</div>
+          </div>
+          <div class="card-8 card-main">
+            <div class="img">
+              <img src="icon/Group 7424.svg" alt="" />
+            </div>
+            <div class="title">Member Review</div>
+          </div>
+        </div>
+      <!--Group Card Start-->
+
+        <!--Table Start-->
+        <div class="table">
+
+        
+           <!--<tbody id="tbl_data">
+              <tr>
+                <td>Manhaj</td>
+                <td>988</td>
+                <td>Bin Baj Hafijuhullah</td>
+                <td>N/A</td>
+              </tr>
+
+              <tr>
+                <td>Manhaj</td>
+                <td>988</td>
+                <td>Bin Baj Hafijuhullah</td>
+                <td>N/A</td>
+              </tr>
+
+              <tr>
+                <td>Manhaj</td>
+                <td>988</td>
+                <td>Bin Baj Hafijuhullah</td>
+                <td>N/A</td>
+              </tr>
+            </tbody>
+          
+          -->
+
+
+          <div class="headingM">
+            <div class="table_heading">
+              <h1>Book Name</h1>
+              <h1>Code</h1>
+              <h1>Writer Name</h1>
+              <h1>Other</h1>
+            </div>
+          </div>
+
+
+          <div class="maind">
+            <div class="main_add_box">
+             <input type="text" placeholder="Master In ICT" class="book_name">
+             <input type="text" placeholder="2021" class="code">
+             <input type="text" placeholder="AJ AnTor Ali" class="writer">
+             <input type="text" placeholder="Helper Name.." class="other">
+            </div>
+
+            <div class="main_add_box ab">
+             
+             </div>
+          </div>
+    
+        </div>
+        
+        <!--Table End-->
+        <!--Button Start For Adding Book list-->
+        <div class="button_section">
+            <div class="button_section_left p-5">
+              <img src="icon/add_circle.svg" alt="" onclick="addrow()" id="clickme">
+              <div class="txt">
+                <p onclick="addmore()">Add More</p>
+              </div>
+            </div>
+
+            <div class="button_section_right p-5">
+              <button id="btn">Add</button>
+              <button id="btn">Cancel</button>
+            </div>
+        </div>
+        <!--Button Start For Adding Book list-->
+      </div>
+    </div>
+
+    <div class="datam"></div>
+    <script>
+
+      var b = document.querySelector('.ab');
+      var a = document.createElement("input");
+      var c = document.createElement("input");
+      var d = document.createElement("input");
+      var e = document.createElement("input");
+
+      a.setAttribute("placeholder", "Master In ICT");
+      c.setAttribute("placeholder", "2021");
+      d.setAttribute("placeholder", "AJ AnTor Ali");
+      e.setAttribute("placeholder", "Helper Name...");
+
+
+      function addrow(){
+        b.appendChild(a);
+        b.appendChild(c);
+        b.appendChild(d);
+        b.appendChild(e);
+      }
+  
+   </script>
+  </body>
+</html>
